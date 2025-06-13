@@ -35,7 +35,7 @@ HAVE_VERILOG=y
 HAVE_VERILOG_VERILATOR?=n
 HAVE_VERILOG_VCS=y
 else
-SYSTEMC ?= /usr/local/systemc-2.3.2/
+SYSTEMC ?= /home/codespace/cosim/install/systemc-2.3.3/
 SYSTEMC_INCLUDE ?=$(SYSTEMC)/include/
 SYSTEMC_LIBDIR ?= $(SYSTEMC)/lib-linux64
 # In case your TLM-2.0 installation is not bundled with
